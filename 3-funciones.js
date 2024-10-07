@@ -79,19 +79,15 @@ const esPar = function(numero) {
 // function multiplicar(a, b) {
 //     return a * b;
 // }
-{
 const multiplicarFlecha = (a, b) => a * b
-}
 
 // 4.2 Crea una función flecha llamada `saludarFlecha` que reciba un parámetro `nombre` y devuelva "Hola [nombre]".
-{
-    const saludarFlecha = (nombre) => console.log("Hola " + nombre)
+const saludarFlecha = (nombre) => console.log("Hola " + nombre)
 saludarFlecha("Edward Elric")
-}
 
 // 4.3 Escribe una función flecha llamada `calcularArea` que reciba el radio de un círculo y devuelva el área del círculo. Usa la fórmula A = π * r².
 const calcularArea = radio => {
-    const calcularArea = (radio) => 3.14 * radio * radio
+const calcularArea = (radio) => 3.14 * radio * radio
 calcularArea(1)
 }
 
