@@ -86,10 +86,8 @@ const saludarFlecha = (nombre) => console.log("Hola " + nombre)
 saludarFlecha("Edward Elric")
 
 // 4.3 Escribe una función flecha llamada `calcularArea` que reciba el radio de un círculo y devuelva el área del círculo. Usa la fórmula A = π * r².
-const calcularArea = radio => {
 const calcularArea = (radio) => 3.14 * radio * radio
 calcularArea(1)
-}
 
 // 5. Recursividad
 // 5.1 Escribe una función que calcule la suma de los primeros n números enteros de forma recursiva. Por ejemplo: `suma(3) -> 1 + 2 + 3 = 6`
