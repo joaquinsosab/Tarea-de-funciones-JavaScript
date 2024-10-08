@@ -26,10 +26,8 @@ function multiplicar(a, b) {
 }
 
 // 2.2 Escribe una función llamada `saludarPersonalizado` que reciba dos parámetros: `nombre` y `apellido`. La función debe devolver "Hola, [nombre] [apellido]".
-    function saludarPersonalizado(nombre, apellido) {{
+    function saludarPersonalizado(nombre, apellido) {
         console.log("Hola, " + nombre + " " + apellido)
-    }
-    saludarPersonalizado("Pedro", "Picapiedra")
 }
 // 2.3 Crea una función llamada `calcularPotencia` que reciba dos parámetros: base y exponente. La función debe devolver el resultado de elevar la base al exponente.
 function calcularPotencia(base, exponente) {
@@ -60,10 +58,9 @@ const multiplicar = function (a, b) {
 }
 
 // 3.2 Escribe una **function expression** llamada `saludar` que acepte un parámetro `nombre` y devuelva "Hola, [nombre]".
-const saludar = function (nombre){{
+const saludar = function (nombre){
     console.log("Hola " + nombre)
-}
-saludar("David Bowie")
+
 }
 
 // 3.3 Crea una **function expression** llamada `esPar` que acepte un número como parámetro y devuelva `true` si el número es par, o `false` en caso contrario.
